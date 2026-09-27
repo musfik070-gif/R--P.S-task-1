@@ -77,3 +77,13 @@ var sleepIn = function(weekday, vacation) {
 var monkeyTrouble = function(aSmile, bSmile) {
     return aSmile === bSmile;
 };
+
+/**
+ * 09. sumDouble
+ * @param {number} a
+ * @param {number} b
+ * @return {number}
+ */
+var sumDouble = function(a, b) {
+    return a === b ? (a + b) * 2 : a + b;
+};
