@@ -68,3 +68,12 @@ var sleepIn = function(weekday, vacation) {
     return !weekday || vacation;
 };
 
+/**
+ * 08. monkeyTrouble
+ * @param {boolean} aSmile
+ * @param {boolean} bSmile
+ * @return {boolean}
+ */
+var monkeyTrouble = function(aSmile, bSmile) {
+    return aSmile === bSmile;
+};
