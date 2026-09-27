@@ -44,3 +44,17 @@ var makeNegative = function(number) {
 var opposite = function(number) {
     return -number;
 };
+
+/**
+  * 06. Simple Array Sum
+  * @param {number[]} ar
+  * @return {number}
+  */
+var simpleArraySum = function(ar) {
+ 	let sum = 0;
+ 	for (let i = 0; i < ar.length; i++) {
+ 		sum += ar[i];
+ 	}
+ 	return sum;
+ };
+
