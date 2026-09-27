@@ -87,3 +87,12 @@ var monkeyTrouble = function(aSmile, bSmile) {
 var sumDouble = function(a, b) {
     return a === b ? (a + b) * 2 : a + b;
 };
+
+/**
+ * 10. diff21
+ * @param {number} n
+ * @return {number}
+ */
+var diff21 = function(n) {
+    return n > 21 ? (n - 21) * 2 : Math.abs(n - 21);
+};
