@@ -56,5 +56,15 @@ var simpleArraySum = function(ar) {
  		sum += ar[i];
  	}
  	return sum;
- };
+};
+ 
+/**
+ * 07. sleepIn
+ * @param {boolean} weekday
+ * @param {boolean} vacation
+ * @return {boolean}
+ */
+var sleepIn = function(weekday, vacation) {
+    return !weekday || vacation;
+};
 
