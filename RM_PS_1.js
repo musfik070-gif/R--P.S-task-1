@@ -96,3 +96,16 @@ var sumDouble = function(a, b) {
 var diff21 = function(n) {
     return n > 21 ? (n - 21) * 2 : Math.abs(n - 21);
 };
+
+module.exports = {
+    solveMeFirst,
+    multiply,
+    evenOrOdd,
+    makeNegative,
+    opposite,
+    simpleArraySum,
+    sleepIn,
+    monkeyTrouble,
+    sumDouble,
+    diff21
+};
