@@ -25,4 +25,14 @@ var multiply = function(a, b) {
   */
 var evenOrOdd = function(number) {
  	return number % 2 === 0 ? 'Even' : 'Odd';
+};
+ 
+/**
+  * 04. Make Negative
+  * @param {number} number
+  * @return {number}
+  */
+var makeNegative = function(number) {
+ 	return -Math.abs(number);
  };
+
