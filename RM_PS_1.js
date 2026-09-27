@@ -36,3 +36,11 @@ var makeNegative = function(number) {
  	return -Math.abs(number);
  };
 
+ /**
+ * 05. Opposite Number
+ * @param {number} number
+ * @return {number}
+ */
+var opposite = function(number) {
+    return -number;
+};
